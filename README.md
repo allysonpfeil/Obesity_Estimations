@@ -54,7 +54,7 @@ Column K: 'CH2O'
 - individual's daily water consumption, where:
   - <1 liter = 1
   - 1-2 liters = 2
-  - >2 liters = 3
+  - over 2 liters = 3
 
 Column L: 'SCC'
 - if the individual monitors calories daily, where:
@@ -72,7 +72,7 @@ Column N: 'TUE'
 - hours the individual uses technological devices, where:
   - 0-2 hours = 0
   - 3-5 hours = 1
-  - >5 hours = 2
+  - over 5 hours = 2
 
 Column O: 'CALC'
 - frequency of the individual's alcohol consumption, where:
@@ -84,7 +84,7 @@ Column O: 'CALC'
 Column P: 'MTRANS'
 - method of typical transportation, where:
   - automobile = 0
-  - motorbike = 2
+  - motorbike = 1
   - bike = 2
   - public transportation = 3
   - walking = 4
