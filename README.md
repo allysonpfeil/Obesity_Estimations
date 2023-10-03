@@ -39,5 +39,6 @@ The accuracy of this model is 86%. The following is the breakdown of the feature
  - Transportation: 0.0408628
 
 This doesn't necessarily mean that smoking and obesity are not correlated, but instead means that the model does not use that feature to come to the BMI classification as much as others. 
+
 #end
 
