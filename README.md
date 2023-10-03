@@ -1,6 +1,12 @@
 # Obesity_Estimations
 model to estimate the obesity level of individuals based on lifestyle factors
 
+This model uses data from the UCI machine learning repository to classify individual obesity based on lifestyle factors. The original dataset can be found at:
+https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition
+
+The version found there contains the variables 'weight' and 'height'; however, I removed them since they are too indicative of BMI class, which is the target variable. FWIW, my model was over 95% accurate when including the weight and height data. 
+All of the data can be found in the 'obesity_edited.csv' file in the repository.
+
 Model Engineering:
 The accuracy of this model is 86%. The following is the breakdown of the features and their importance:
  - Gender: 0.06839598
