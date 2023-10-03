@@ -8,7 +8,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report
 
 #load data from a CSV into a pandas DataFrame
-data = pd.read_csv('C://dev//opencv.test//Obesity.csv')
+data = pd.read_csv('C://dev//opencv.test//Obesity_edited.csv')
 
 #assuming the 'NObeyesdad' column contains the target variable, and the rest are features
 X = data.drop('NObeyesdad', axis=1)  #features without 'NObeyesdad'
