@@ -5,7 +5,9 @@ This model uses data from the UCI machine learning repository to classify indivi
 https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition
 
 The version found there contains the variables 'weight' and 'height'; however, I removed them since they are too indicative of BMI class, which is the target variable. FWIW, my model was over 95% accurate when including the weight and height data. 
-All of the data can be found in the 'obesity_edited.csv' file in the repository.
+All of the data can be found in the 'obesity_edited.csv' file in this repository. The keys, definitions, and feature details can be found in the 'Dataset_Keys' file also in this repository.
+
+The data contains 
 
 Model Engineering:
 The accuracy of this model is 86%. The following is the breakdown of the features and their importance:
