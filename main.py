@@ -1,5 +1,5 @@
 #RF model to predict weight classification from lifestyle factors#
-#By: Allyson Pfeil
+#By Allyson Pfeil
 
 #import packages
 import pandas as pd
@@ -17,7 +17,7 @@ y = data['NObeyesdad']  #target variable 'NObeyesdad'
 #split the data into training and test sets
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-#create a Random Forest classifier
+#create a Random Forest classifier with hyperparameters of interest
 rf_classifier = RandomForestClassifier(n_estimators=400,
                                        max_depth=20,
                                        min_samples_leaf=1,
