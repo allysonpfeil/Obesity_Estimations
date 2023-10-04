@@ -8,9 +8,9 @@ Column A: Gender
 Column B: 'Age'
 - the age of the individual
 
-Column C: Height- the height of the individual in meters
+#REMOVED Column C: Height- the height of the individual in meters
 
-Column D: Weight- the weight of the individual in kilograms
+#REMOVED Column D: Weight- the weight of the individual in kilograms
 
 Column E: 'family_history_with_overweight'
 - the family history of overweight/obesity, where:
